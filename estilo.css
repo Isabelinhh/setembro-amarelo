@@ -28,7 +28,7 @@ p{
    
 }
  
-.conteiner {
+.container {
     display: grid;
     grid-template-columns: repeat(autofit, minmax(250px, 1fr));
     gap: 20px;
