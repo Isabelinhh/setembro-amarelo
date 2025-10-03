@@ -62,3 +62,80 @@ p{
     max-width: 100%;
     margin-bottom: 15px;
 }
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    box-shadow: unset;
+    padding: unset;
+    background-color: unset;
+
+}
+
+.card2{
+    background-color: #a86830;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+    .card2:hover {
+    transform: scale(1.05);
+    } 
+
+.card2 img {
+    width: 70px;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+.gira-float {
+    position: absolute;
+    top: 76% fixed;
+    right: 1%;
+    width: 10%;
+    height: auto;
+    z-index: 0;
+}
+.gira-float2 {
+    position: absolute;
+    top: 76% fixed;
+    right: 87%;
+    width: 13%;
+    height: auto;
+    z-index: 0;
+
+}
+.gira-float3 {
+    position: absolute;
+    top: 76% fixed;
+    right: 1%;
+    width: 13%;
+    height: auto;
+    z-index: 0;
+
+}
+.gira-float4 {
+    position: absolute;
+    top: 76% fixed;
+    right: 87%;
+    width: 10%;
+    height: auto;
+    z-index: 0;
+
+}
+
+
+#div-menor{
+    width: 20%;
+    margin: unset;
+    margin-left: 8%;
+}
+
